@@ -1,6 +1,9 @@
+<script>
+  import Header from './lib/Header/Header.svelte';
+  import TodoForm from './lib/TodoForm/TodoForm.svelte';
+</script>
 
-<main>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-</main>
+<slot>
+  <Header />
+  <TodoForm />
+</slot>
