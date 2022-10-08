@@ -1,7 +1,6 @@
 <script>
   import { deleteTodo, toggleTodoCompleted } from '../../stores/todoStore.js';
   import { ALERT_TYPE, displayAlert } from '../../stores/alertStore.js';
-  import { Trash } from 'phosphor-svelte';
   export let todo;
 
   function displayAlertMessage() {
