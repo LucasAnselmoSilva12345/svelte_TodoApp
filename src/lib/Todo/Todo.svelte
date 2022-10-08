@@ -3,7 +3,7 @@
   export let todo;
 </script>
 
-<div>
+<div class="w-11/12 my-0 mx-auto md:w-1/4">
   <ul>
     <li
       class="bg-white flex items-center shadow-sm border border-gray-200 rounded-lg my-2 py-2 px-4"
