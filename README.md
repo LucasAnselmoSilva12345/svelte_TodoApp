@@ -1,48 +1,84 @@
-# Svelte + Vite
+# MyTodo
 
-This template should help get you started developing with Svelte in Vite.
+[Version this Readme in english](https://github.com/LucasAnselmoSilva12345/svelte_TodoApp/blob/master/README-en.md)
 
-## Recommended IDE Setup
+## Sobre esse projeto
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+Esse projeto é a criação de um `To-do APP`, feito para web, com foco para criação de tarefas do dia. Nessa aplicação, o usuário pode criar as suas próximas tarefas, assinar as tarefas como finalizadas e excluir as tarefas que desejarem.
 
-## Need an official Svelte framework?
+## Tecnologias utilizadas nesse projeto
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+Nesse projeto, foram utilizadas as seguintes tecnologias:
 
-## Technical considerations
+### Front-end
 
-**Why use this over SvelteKit?**
+- [SvelteKit](https://svelte.dev/)
+- [TailwindCss](https://tailwindcss.com/)
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
-  `vite dev` and `vite build` wouldn't work in a SvelteKit environment, for example.
+## Como executar esse projeto
 
-This template contains as little as possible to get started with Vite + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+**Para executar o site, tenha certeza que você tem o [Git](https://git-scm.com/) instalado em sua máquina**.
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+1. Faça o clone desse repositório através do comando:
 
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
+```sh
 
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
+$ git clone https://github.com/LucasAnselmoSilva12345/linkImportante
 
-**Why include `.vscode/extensions.json`?**
+```
 
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
+2. Após realizar o clone do projeto, ainda no terminal, entre na pasta do projeto:
 
-**Why enable `checkJs` in the JS template?**
+```sh
 
-It is likely that most cases of changing variable types in runtime are likely to be accidental, rather than deliberate. This provides advanced typechecking out of the box. Should you like to take advantage of the dynamically-typed nature of JavaScript, it is trivial to change the configuration.
+$ cd pasta
 
-**Why is HMR not preserving my local component state?**
+```
 
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/rixo/svelte-hmr#svelte-hmr).
+Obs. Para realizar a execução do comando no próximo passo, tenha garantia que tenha o [node](https://nodejs.org/en/) instalado em sua máquina para poder utilizar o `npm`. Ou caso prefira instalar as dependências via `yarn` tenha garantia que tem o [yarn](https://yarnpkg.com/) instalado em sua máquina.
 
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
+3. Após entrar na pasta do projeto, rode o comando:
 
-```js
-// store.js
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
+```sh
+
+$ npm install
+
+ou
+
+$ yarn
+
+```
+
+Para realizar a instalação de dependências.
+
+4. Após instalação das dependências e ainda na pasta do projeto via terminal, rode o comando:
+
+```sh
+
+$ code .
+
+```
+
+Para abrir o projeto no Visual Studio Code.
+
+5. Após abrir o projeto no seu Visual Studio Code, volte para a tela do terminal, e rode o comando:
+
+```sh
+
+$ npm run dev
+
+ou
+
+yarn dev
+
+```
+
+Para executar o projeto
+
+6. Feito isso, basta abrir o projeto no seu navegador, através do link:
+
+```sh
+
+$ http://localhost:5173/
+
 ```
