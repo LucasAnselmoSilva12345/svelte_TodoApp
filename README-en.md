@@ -23,8 +23,7 @@ In this project, the following technologies were used:
 
 ```sh
 
-$ git clone https://github.com/LucasAnselmoSilva12345/linkImportante
-
+$ git clone https://github.com/LucasAnselmoSilva12345/svelte_TodoApp
 ```
 
 2. After performing the clone the project, still in the terminal, enter the project folder:

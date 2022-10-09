@@ -23,7 +23,7 @@ Nesse projeto, foram utilizadas as seguintes tecnologias:
 
 ```sh
 
-$ git clone https://github.com/LucasAnselmoSilva12345/linkImportante
+$ git clone https://github.com/LucasAnselmoSilva12345/svelte_TodoApp
 
 ```
 
