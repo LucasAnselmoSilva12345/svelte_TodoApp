@@ -12,7 +12,7 @@ Nesse projeto, foram utilizadas as seguintes tecnologias:
 
 ### Front-end
 
-- [SvelteKit](https://svelte.dev/)
+- [Svelte](https://svelte.dev/)
 - [TailwindCss](https://tailwindcss.com/)
 
 ## Como executar esse projeto
